@@ -54,7 +54,7 @@
 
 (deftest additional-regex
   (is (= '({:x 1 :y 2})
-         (unglue ["{x \\d=parse-long}{y \\d=parse-long}"] ["12"]))))
+         (unglue "{x \\d=parse-long}{y \\d=parse-long}" ["12"]))))
 
 (deftest facts-test
   (let [facts '("Antarctica is the largest desert in the world!",
