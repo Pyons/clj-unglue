@@ -4,7 +4,7 @@ Clojure unglue, inspired by [https://github.com/moodymudskipper/unglue](https://
 
 ## Installation
 
-Download from https://github.com/pyons/unglue
+Download from https://github.com/pyons/clj-unglue
 
 ## Usage
 
