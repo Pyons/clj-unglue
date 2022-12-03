@@ -4,7 +4,12 @@ Clojure unglue, inspired by [https://github.com/moodymudskipper/unglue](https://
 
 ## Installation
 
-Download from https://github.com/pyons/clj-unglue
+```clojure
+{:deps
+    {pyons/clj-unglue {:git/url "https://github.com/pyons/clj-unglue" 
+                       :git/tag "v0.0.1" 
+                       :git/sha "47ef778"}}}
+```
 
 ## Usage
 
